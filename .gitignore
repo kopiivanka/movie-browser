@@ -1,0 +1,29 @@
+# ===== Gradle / Build =====
+.gradle/
+build/
+out/
+
+# Keep wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# ===== OS junk =====
+.DS_Store
+
+# ===== Kotlin/Compose Desktop app data =====
+.env
+favorites.json
+
+# ===== Logs/Temp =====
+*.log
+*.tmp
